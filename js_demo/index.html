@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Z | js demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Today we will lear about javascript</h1>
+    <h2>This is how we do onclick events</h2>
+    <p><a href="https://www.google.com" target="_blank" onclick="alert ('YOU ARED LEAVERAASDHG NEDEVER LEAVEME')">Search Goggle TM</a></p>
+    <h2>how do we use js to do mathththh    poirhoiahou</h2>
+    <p>What is 1+1</p>
+    <button onclick="document.getElementById('add').innerHTML=1+1">click me</button>
+    <p id="add"></p>
+    <h2>how do we change text with js</h2>
+    <button onclick="document.getElementById('nice').innerHTML='good job'">click me or die</button>
+    <p id="nice">this is text</p>
+
+    <h2>we can also ad the date and time to our pages</h2>
+    <button onclick="document.getElementById('date').innerHTML= Date()">Clciskdf9guds</button>
+    <p id="date"></p>
+
+    <p>how do we make a func with js</p>
+    <button onclick="coolFunction()">click me to run the func</button>
+    <p id="coolFunction"></p>
+    <script>
+        alert('hello world');
+        alert('its another alert \n you thought you were done you are not \n get wreked');
+
+        function coolFunction() {
+            var p = document.getElementById('coolFunction');
+            p.innerHTML = 'you just ran a function!';
+            p.style.color= 'white';
+            p.style.textAlign = "center";
+        }  
+
+        </script>
+</body>
+</html> 

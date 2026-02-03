@@ -1,0 +1,96 @@
+h1, h2, h3 {
+  color: darkolivegreen;
+  text-align: center;
+}
+
+a {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+p, .d, figcaption, ol {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 1%;
+  background-color: antiquewhite;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.a {
+  background: url('../images/b.png') repeat fixed;
+  min-height: 100vh;
+}
+
+.b {
+  display: flex;
+  place-content: center;
+  gap: 1%;
+  width: 94%;
+  margin-inline: auto;
+  padding: 1%;
+  background-color: darkolivegreen;
+  color: antiquewhite;
+  border: 2px solid;
+  font-family: serif;
+  list-style: none;
+}
+
+.b .c {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.b li a {
+  color: antiquewhite;
+  transition: opacity 0.2s;
+}
+
+.b li a:hover {
+  opacity: 0.8;
+}
+
+.e {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+figure {
+  flex: 0 0 100%;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.e img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  object-fit: cover;
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.f img {
+    width: 15%; 
+    height: auto; 
+}
+
+.g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.g img {
+    width: 75%; 
+    height: auto; 
+}

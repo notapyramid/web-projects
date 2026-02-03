@@ -1,0 +1,24 @@
+body {
+    background-color: antiquewhite;
+}
+
+.cont  {
+    text-align:center;    
+    width: 98%;
+    padding: 1%;
+    background-color: darkolivegreen;
+    color: white;
+    border: solid;
+}
+
+li {
+    display:inline;
+    list-style: none;
+}
+
+.div-test {
+    background-color: darkolivegreen;
+    text-align: center;
+    color: white;
+
+}
