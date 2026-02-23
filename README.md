@@ -8,5 +8,5 @@ This is some projects for eps web
     <li><a href="midterm/">Midterm</a></li>
     <li><a href="css_demo/">Css demo</a></li>
     <li><a href="html_demo/">Html demo</a></li>
-    <li><a href="ag/ag.py">ag py</a></li>
+    <li><a href="ag/ag.py">Python game</a></li>
 </ul>
