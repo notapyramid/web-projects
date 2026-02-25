@@ -1,0 +1,47 @@
+.d {
+  position: relative; /* Needed to anchor the tint */
+  background: url('../images/a.webp') repeat fixed;
+  min-height: 100vh;
+}
+
+.d::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2%; /* Starts 2% in from the left */
+  width: 96%; /* Covers exactly 96% */
+  height: 100%;
+  background-color: rgba(236, 236, 236, 0.9);
+  z-index: -10000; /* Keeps it behind your text */
+  pointer-events: none; /* Allows you to still click things underneath */
+}
+
+.a {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: red;
+  color: green;
+  font-family: serif;
+  list-style: none;
+  width: 100%;
+  border: 3px solid;
+  padding: 0; 
+}
+
+.a .b {
+  padding: 1%;
+}
+
+.a .c {
+  padding: 1%;
+}
+
+.a li a {
+  color: green;
+  transition: opacity 0.2s;
+}
+
+.a li a:hover {
+  opacity: 0.8;
+}
