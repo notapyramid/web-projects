@@ -1,40 +1,7 @@
 * { 
   margin: 0; 
   padding: 0; 
-  box-sizing: 
-  border-box; 
-}
-
-.a { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  background: red; 
-  border: 3px solid; 
-  list-style: none; 
-  font-family: serif; 
-}
-
-.a img { 
-  width: 20%; 
-  padding: 1%; 
-}
-
-.a .b { 
-  display: flex; 
-  gap: 20px;
-  padding: 1%; 
-  list-style: none; 
-}
-
-.a a { 
-  color: green; 
-  text-decoration: none; 
-  transition: 0.2s; 
-}
-
-.a a:hover { 
-  opacity: 0.8; 
+  box-sizing: border-box; 
 }
 
 .c { 
@@ -42,18 +9,52 @@
   min-height: 100vh; 
 }
 
-.c::before, object {
+.c::before {
+  content: "";
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   width: 96%;
-}
-
-.c::before {
-  content: "";
   top: 0;
   height: 100%;
   background: rgba(236, 236, 236, 0.9);
   z-index: -1;
   pointer-events: none;
+}
+
+.a { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: red; 
+  border: 3px solid black; 
+  list-style: none; 
+  font-family: serif; 
+  width: 100%;
+  position: relative; 
+}
+
+.d {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.a img { 
+  width: 100px; 
+  padding: 5px; 
+}
+
+.b { 
+  display: flex; 
+  gap: 20px; 
+  padding-right: 20px; 
+  list-style: none;
+}
+
+.a a { 
+  color: green; 
+  text-decoration: none; 
 }
