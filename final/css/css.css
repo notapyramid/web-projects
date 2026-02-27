@@ -1,47 +1,59 @@
-.d {
-  position: relative; /* Needed to anchor the tint */
-  background: url('../images/a.webp') repeat fixed;
-  min-height: 100vh;
-}
-
-.d::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 2%; /* Starts 2% in from the left */
-  width: 96%; /* Covers exactly 96% */
-  height: 100%;
-  background-color: rgba(236, 236, 236, 0.9);
-  z-index: -10000; /* Keeps it behind your text */
-  pointer-events: none; /* Allows you to still click things underneath */
-}
-
-.a {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  background-color: red;
-  color: green;
-  font-family: serif;
-  list-style: none;
-  width: 100%;
-  border: 3px solid;
+* { 
+  margin: 0; 
   padding: 0; 
+  box-sizing: 
+  border-box; 
 }
 
-.a .b {
-  padding: 1%;
+.a { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: red; 
+  border: 3px solid; 
+  list-style: none; 
+  font-family: serif; 
 }
 
-.a .c {
-  padding: 1%;
+.a img { 
+  width: 20%; 
+  padding: 1%; 
 }
 
-.a li a {
-  color: green;
-  transition: opacity 0.2s;
+.a .b { 
+  display: flex; 
+  gap: 20px;
+  padding: 1%; 
+  list-style: none; 
 }
 
-.a li a:hover {
-  opacity: 0.8;
+.a a { 
+  color: green; 
+  text-decoration: none; 
+  transition: 0.2s; 
+}
+
+.a a:hover { 
+  opacity: 0.8; 
+}
+
+.c { 
+  background: url('../images/a.webp') repeat fixed; 
+  min-height: 100vh; 
+}
+
+.c::before, object {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96%;
+}
+
+.c::before {
+  content: "";
+  top: 0;
+  height: 100%;
+  background: rgba(236, 236, 236, 0.9);
+  z-index: -1;
+  pointer-events: none;
 }
