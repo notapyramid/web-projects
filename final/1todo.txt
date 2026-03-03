@@ -1,0 +1,2 @@
+-need to make the flexbox respect the middle text
+- need to add alerts
