@@ -26,9 +26,7 @@
   
   const titleElement = document.getElementById('a');
 
-  if (currentPage.includes('index.html')) {
-    titleElement.innerText = 'Lizard hq (seattle edition)';
-  } else if (currentPage.includes('gallery.html')) {
+  if (currentPage.includes('gallery.html')) {
     titleElement.innerText = 'Our Members';
   } else if (currentPage.includes('about.html')) {
     titleElement.innerText = 'About Us';
@@ -37,7 +35,7 @@
   } else if (currentPage.includes('help.html')) {
     titleElement.innerText = 'How you can help';
   } else {
-    titleElement.innerText = 'Menu';
+    titleElement.innerText = 'Lizard hq (seattle edition)';
   }
 </script>
 </body>
