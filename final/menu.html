@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "css/css.css">
     <title>menu</title>
+    
 </head>
 <body>
 <div class="a">
@@ -20,23 +21,7 @@
       <li><a href="help.html" target="_top">Compare</a></li>
     </ul>
 </div>
-<script>
-const currentPage = window.parent.location.pathname;
-const titleElement = document.getElementById('a');
+<script src="js/js.js"></script>
 
-if (titleElement) { // Good practice: check if the element exists first
-  if (currentPage.includes('gallery.html')) {
-    titleElement.innerText = 'Our Members';
-  } else if (currentPage.includes('about.html')) {
-    titleElement.innerText = 'About Us';
-  } else if (currentPage.includes('contact.html')) {  
-    titleElement.innerText = 'Our Contact';
-  } else if (currentPage.includes('help.html')) {
-    titleElement.innerText = 'How do we stack up?';
-  } else {
-    titleElement.innerText = 'Lizard hq (seattle edition)';
-  }
-}
-</script>
 </body>
 </html>
