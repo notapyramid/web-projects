@@ -1,2 +1,4 @@
 -need to make the flexbox respect the middle text
-- need to add alerts
+1 use each of inline and internal styling (fix?)
+-Your website should include at least one alert and two onclick events. How and where you use them is up to you.
+-Majority of your JS should live within your script file, but it is ok to have an alert within your HTML doc.
