@@ -1,4 +1,20 @@
--need to make the flexbox respect the middle text
-1 use each of inline and internal styling (fix?)
+1 use each of inline and internal styling
+
 -Your website should include at least one alert and two onclick events. How and where you use them is up to you.
 -Majority of your JS should live within your script file, but it is ok to have an alert within your HTML doc.
+
+Home page titled index.html
+
+    This page will be an overview of your topic.  You can start with an <h1>  and an image. Then use <ol> and/or <ul> to briefly describe which details the viewer can find on your topic in the rest of the website. 
+
+About page titled about.html
+
+    This page will go into more detail about your topic, and should include at least 250 words. Include at least one image on this page as well.
+
+Gallery page titled gallery.html
+
+    This page will be a gallery of images related to your topic. It should start with an <h1> saying what the page includes images of, and you should include at least 6 different images. Each image should include a short description (one or two sentences is fine) of the image. You may want to use <div's> to organize your image with it's caption.  
+
+Contact page titled contact.html
+
+    This page will include your contact information. You only need to include your EPS email address here, and it can be a fake one if you are worried about privacy. This page should also include an image.  
