@@ -4,11 +4,18 @@
   box-sizing: border-box;
   font-family: serif; 
 }
-
+.f {
+  text-align: center;
+  width: 94%;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: green
+}
 /*back*/
 .c { 
   background: url('../images/aa.avif') repeat fixed;
   min-height: 100vh;
+  
 }
 /*shade*/
 .c::before {
@@ -59,4 +66,42 @@
   margin: 0 auto;
   min-height: 150px;
   border: none;
+}
+.e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+.g {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 1%;
+  background-color: red;
+  list-style-position: inside;
+}
+
+.h {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+figure {
+  flex: 0 0 100%;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.h img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  object-fit: cover;
 }
